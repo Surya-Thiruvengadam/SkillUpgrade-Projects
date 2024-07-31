@@ -1,0 +1,137 @@
+
+header{
+    position:fixed;
+    width:100%;
+    top:0; 
+    z-index: 10;
+}
+
+.contact-hed{
+    background-color: #04091e;
+    color: white;
+    padding-block: 14px;
+    font-size: 14px ;
+}
+
+.social-media{
+    display: flex;
+    column-gap: 16px;
+}
+
+.social-links-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu {
+    width: 100%;
+    background-color: rgba(34, 35, 35, 0.646);
+    padding-block: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.slide-par{
+    position: relative;
+}
+
+#logo span{ 
+  color: var(--green);
+}
+
+.slide{
+    position: absolute;
+    right:0 ;
+    top: 30%;
+    z-index: 2;
+}
+.slide span{
+    display: block;
+    width: 30px;
+    height: 3px;
+    border-radius: 50px;
+    background-color: white;
+    transition: all 0.25s;
+}
+
+.slide > div{
+    position: relative;
+}
+
+.slide > div span:last-child{
+    position: absolute;
+    inset: 0;
+}
+
+.slide-active .slide > span {
+    opacity: 0;
+}
+
+ .slide-active .slide > div span:first-child{
+    transform: rotate(-45deg);
+}
+
+.slide-active .slide > div span:last-child{
+    transform: rotate(45deg);
+}
+
+.slide *:not(.slide span:last-child){
+    margin-bottom: 5px;
+}
+
+.nav-links{
+    height: 0;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 13px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: all 0.25s ease-in-out;
+
+}
+
+nav{
+    padding-top: 20px;
+    width: 200px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+nav li{
+    padding: 10px;
+    padding-left: 15px;
+    font-weight: 600;
+}
+
+nav a.active , nav a:hover{
+   color: var(--green);
+
+}
+
+.slide-active .nav-links{
+    height: 100%;
+}
+
+@media (min-width: 992px) {
+.slide-par{
+    display: flex;
+    justify-content: space-between;
+}
+.slide{
+    display: none;
+}
+.nav-links{
+    position: unset;
+    height: 100%;
+    background-color: transparent;
+    }
+nav{
+    width: 100%;
+    display: flex;
+    padding: 0;
+    background-color: inherit;
+}
+}

@@ -1,0 +1,43 @@
+.verify-box{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.verify-container{
+    max-width: 800px;
+    margin-inline: auto; 
+    text-align: center;
+}
+
+.vpage-header{
+   text-transform: capitalize;
+   font-size: 4rem;
+   text-align: center;
+   line-height: 1.3;
+   color: var(--white);
+}
+
+.input-box{
+  margin-block: 20px;
+}
+
+.verify-container .input{
+    margin-bottom: 10px;
+}
+
+.verify-container .btn{
+    border-radius: 5px;
+}
+
+.verify-container .error-message{
+    font-size: 1.5rem;
+    font-weight: 500 ;
+}
+
+@media screen  and (min-width:768px){
+    .verify-container .input{
+        max-width:40%;
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+}

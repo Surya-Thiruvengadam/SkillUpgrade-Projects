@@ -1,0 +1,19 @@
+.home-main .banner-content {
+   padding-block: 0;
+   margin-top: 0;
+}
+ 
+.hpage-header{
+    font-size: clamp(40px , 10vw , 60px);
+    text-transform: capitalize;
+    line-height: 1.2;
+    color: var(--white);
+}
+
+.view-btn-wrap{
+    margin-top:4rem ;
+    text-align: center;
+}
+
+
+

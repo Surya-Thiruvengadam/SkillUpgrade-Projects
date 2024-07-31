@@ -1,0 +1,54 @@
+.black-bg,
+.w-bg,
+.dblue-bg {
+  padding-block: 8rem;
+}
+
+.black-bg {
+  background-color: #1a2130;
+}
+
+.w02 {
+  color: var(--light-white);
+}
+
+.w01 {
+  color: var(--white);
+}
+
+.dblue-bg {
+  background-color: #2f3645;
+}
+
+.about-content :is(h1, h2, h3, h4, h5, h6) {
+  font-size: 35px;
+  margin-block: 1.5rem;
+}
+
+.about-content > p {
+  font-size: 1.6rem;
+}
+
+.about-us-container img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.swap-item {
+  order: 2;
+}
+
+.m-b4 {
+  margin-block: 40px;
+}
+
+@media screen and (min-width: 1000px) {
+  .about-us-container {
+    display: flex;
+    column-gap: 4rem;
+  }
+
+  .about-us-container img {
+    width: 500px;
+  }
+}

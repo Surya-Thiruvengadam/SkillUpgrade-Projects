@@ -1,0 +1,37 @@
+
+.domain-card{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem; 
+    max-width: 900px;
+    margin-inline: auto;
+    /* box-shadow: 1px 1px 5px 0px  rgba(222, 222, 222, 0.232); */
+
+}
+.domain-card img {
+   width: 100%;
+   font-size: 1.5rem;
+   border-radius: 5px;
+}
+
+.domain-card h1{
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+.domain-card p{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width:768px) {
+      .domain-card { 
+        flex-direction: row ;
+        align-items: center;
+}  
+    
+    .domain-card img{
+        width: 250px;
+    } 
+
+}

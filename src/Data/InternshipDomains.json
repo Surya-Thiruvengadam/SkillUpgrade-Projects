@@ -1,0 +1,43 @@
+[
+  {
+    "id":"webdev",
+    "DomainName": "Web Development",
+    "Domaindescrip": "Join our Web Development internship to build and maintain dynamic websites. Gain hands-on experience with HTML, CSS, JavaScript, and modern frameworks to create responsive and user-friendly web applications."
+  },
+  {
+    "id":"appdev",
+    "DomainName": "App Development",
+    "Domaindescrip": "Our App Development internship offers practical experience in creating mobile applications for Android and iOS. Learn to design, develop, and deploy apps using the latest technologies and industry best practices."
+  },
+  {
+    "id":"danalyst",
+    "DomainName": "Data Analyst",
+    "Domaindescrip": "As a Data Analyst intern, you will analyze and interpret complex data sets to help drive business decisions. Develop your skills in data visualization, statistical analysis, and data manipulation using tools like Excel, SQL, and Python."
+  },
+
+  {
+    "id":"javadev",
+    "DomainName": "Java Development",
+    "Domaindescrip": "Join our Java Development internship to master one of the most popular programming languages. Work on real-world projects, enhancing your skills in Java programming, object-oriented design, and software development principles."
+  },
+  {
+    "id":"python",
+    "DomainName": "Python Development",
+    "Domaindescrip": "Our Python Development internship offers hands-on experience in one of the fastest-growing programming languages. Engage in projects that involve web development, data analysis, automation, and more, using Python."
+  },
+  {
+    "id":"c",
+    "DomainName": "C++ Programming",
+    "Domaindescrip": "As a C++ Programming intern, you'll dive into systems programming and software development. Gain expertise in C++ syntax, data structures, and algorithm design, applying your knowledge to challenging projects."
+  },
+  {
+    "id":"cybersec",
+    "DomainName": "Cyber Security",
+    "Domaindescrip": "Participate in our Cybersecurity internship to protect digital assets and ensure information security. Learn about threat detection, risk assessment, and implementing security measures to safeguard systems and networks."
+  },
+  {
+    "id":"uiux",
+    "DomainName": "UI & UX Design",
+    "Domaindescrip": "Join our UI & UX Design internship to create intuitive and engaging user interfaces. Learn about user research, wireframing, prototyping, and visual design to enhance user experiences across digital platforms."
+  }
+]

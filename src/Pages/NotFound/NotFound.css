@@ -1,0 +1,46 @@
+
+
+.not-found {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .not-found-container {
+    text-align: center;
+    background: #fff;
+    padding: 2rem 4rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .error-code {
+    font-size: 6rem;
+    margin: 0;
+    color: #4caf50; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .error-message-404 {
+    font-size: 1.5rem;
+    color: #388e3c;
+    margin: 1rem 0;
+  }
+  
+  .home-link {
+    font-size: 1rem;
+    color: #4caf50; 
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #4caf50; 
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .home-link:hover {
+    background-color: #4caf50;
+    color: #fff; 
+  }
+  
